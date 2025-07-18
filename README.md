@@ -57,8 +57,7 @@ The dataset consists of **4 tables**:
 
 ## 🛠 Tools Used
 - **Database:** MySQL  
-- **Queries:** SELECT, JOIN, GROUP BY, ORDER BY, Aggregate Functions, Window Functions  
-- **Visualization:** (Optional) Excel / Power BI  
+- **Queries:** SELECT, JOIN, GROUP BY, ORDER BY, Aggregate Functions, Window Functions    
 
 ---
 
