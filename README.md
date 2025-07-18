@@ -110,6 +110,7 @@ The dataset consists of **4 tables**:
 
 ## 🧾 Sample SQL Queries
 ### ✅ 1. Total Orders
+```sql
 SELECT COUNT(order_id) AS total_orders
 FROM orders;
 
