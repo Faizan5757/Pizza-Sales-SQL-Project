@@ -110,16 +110,15 @@ The dataset consists of **4 tables**:
 
 ## 🧾 Sample SQL Queries
 ### ✅ 1. Total Orders
-```sql
 SELECT COUNT(order_id) AS total_orders
 FROM orders;
 
-✅ 2. Total Revenue
+### ✅ 2. Total Revenue
 SELECT ROUND(SUM(orders_details.quantity * pizzas.price), 2) AS total_sales
 FROM orders_details
 JOIN pizzas ON pizzas.pizza_id = orders_details.pizza_id;
 
-✅ 3. Highest Priced Pizza
+### ✅ 3. Highest Priced Pizza
 SELECT pizza_types.name, pizzas.price
 FROM pizza_types
 JOIN pizzas ON pizza_types.pizza_type_id = pizzas.pizza_type_id
