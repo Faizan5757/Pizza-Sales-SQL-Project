@@ -126,6 +126,10 @@ LIMIT 1;
 
 (📌 Full queries available in pizza_sales_analysis.sql file)
 
+## 📄 Project Report
+For detailed SQL queries, outputs, and analysis screenshots, check the full project report:  
+[**SQL Queries & Outputs (PDF)**](SQL_Queries_and_Outputs.pdf)
+
 📂 Project Structure
 Pizza-Sales-SQL-Project/
 │
@@ -133,6 +137,7 @@ Pizza-Sales-SQL-Project/
 ├── LICENSE
 ├── pizza_sales_analysis.sql   # Combined SQL file (all queries)
 ├── Questions List.txt         # List of all questions
+├── SQL_Queries_and_Outputs.pdf # PDF report with query & output screenshots
 ├── queries/                   # Individual query files
 │    ├── Question 1.sql
 │    ├── Question 2.sql
